@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://b2n2u71h2jjlp"]
 
 [ext_resource type="Script" uid="uid://dbovcfu37sec3" path="res://scripts/global_map.gd" id="1_57agn"]
-[ext_resource type="Texture2D" uid="uid://cgf6spykcr4a8" path="res://assets/basic_terrain_spritesheet.png" id="1_s8255"]
+[ext_resource type="Texture2D" uid="uid://owipc0gcvff8" path="res://assets/basic_terrain_spritesheet.png" id="1_s8255"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_57agn"]
 texture = ExtResource("1_s8255")
@@ -10,6 +10,9 @@ texture_region_size = Vector2i(140, 120)
 1:0/0 = 0
 2:0/0 = 0
 3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_uqrwb"]
 tile_shape = 3

@@ -4,27 +4,45 @@ extends Node2D
 
 var tile_collection: Array = [
 	{
-		"terrain_type": "desert",
+		"terrain_type": "forest",
 		"tile_set_source": 0,
 		"atlas_coords_x": 0,
 		"atlas_coords_y": 0
 	},
 	{
-		"terrain_type": "swamp",
+		"terrain_type": "unknown",
 		"tile_set_source": 0,
 		"atlas_coords_x": 1,
 		"atlas_coords_y": 0
 	},
 	{
-		"terrain_type": "forest",
+		"terrain_type": "desert",
 		"tile_set_source": 0,
 		"atlas_coords_x": 2,
 		"atlas_coords_y": 0
 	},
 	{
-		"terrain_type": "mountain",
+		"terrain_type": "hills",
 		"tile_set_source": 0,
 		"atlas_coords_x": 3,
+		"atlas_coords_y": 0
+	},
+	{
+		"terrain_type": "plains",
+		"tile_set_source": 0,
+		"atlas_coords_x": 4,
+		"atlas_coords_y": 0
+	},
+	{
+		"terrain_type": "swamp",
+		"tile_set_source": 0,
+		"atlas_coords_x": 5,
+		"atlas_coords_y": 0
+	},
+	{
+		"terrain_type": "mountain",
+		"tile_set_source": 0,
+		"atlas_coords_x": 6,
 		"atlas_coords_y": 0
 	},
 ]
