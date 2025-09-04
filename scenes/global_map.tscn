@@ -18,10 +18,13 @@ texture_region_size = Vector2i(140, 120)
 tile_shape = 3
 tile_offset_axis = 1
 tile_size = Vector2i(140, 120)
+custom_data_layer_0/name = "terrain_type"
+custom_data_layer_0/type = 0
 sources/0 = SubResource("TileSetAtlasSource_57agn")
 
 [node name="GlobalMap" type="Node2D"]
 script = ExtResource("1_57agn")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
+position = Vector2(570, 300)
 tile_set = SubResource("TileSet_uqrwb")
